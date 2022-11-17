@@ -1,6 +1,6 @@
 
 
-Sukor=gg.makeRequest("http://xiuran.zn27/脚本/api.php").content --启动次数网址
+Sukor=gg.makeRequest("http://xiuran.zn27.cn/脚本/api.php").content --启动次数网址
 
 XR=Sukor:match("全网启动次数\":(.-),\"")  --这个不要改，改了会错误
 
