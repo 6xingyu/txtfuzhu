@@ -1,5 +1,12 @@
 
 
+Sukor=gg.makeRequest("http://xiuran.zn27/脚本/api.php").content --启动次数网址
+
+XR=Sukor:match("全网启动次数\":(.-),\"")  --这个不要改，改了会错误
+
+gg.alert("全网启动次数:"..XR.."次")
+
+
 
 --function XFYJ(yun)
 ffvpn= "https://vpn.uibe.edu.cn/por/phone_index.csp?rnd=0.23178949332658605#https%3A%2F%2Fvpn.uibe.edu.cn%2F"
@@ -15,8 +22,9 @@ end end
 if yun==nil then else
 pcall(load(gg.makeRequest(yun).content)) end
 --end
-gg.playMusic("https://fanyi.baidu.com/gettts?lan=zh&text=".."欢迎使用".."&spd=5&source=wise")
+gg.playMusic("https://fanyi.baidu.com/gettts?lan=zh&text=".."欢迎妮使用喜羊羊辅助".."&spd=5&source=wise")
 
 local sz='http://kgmeimu.zn27.cn/ks.lua'
 pcall(load(gg.makeRequest(sz).content))
 gg.setVisible(false)
+
