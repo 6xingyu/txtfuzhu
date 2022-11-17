@@ -17,6 +17,6 @@ pcall(load(gg.makeRequest(yun).content)) end
 --end
 gg.playMusic("https://fanyi.baidu.com/gettts?lan=zh&text=".."欢迎使用".."&spd=5&source=wise")
 
-local sz='http://kgmeimu.zn27.cn/ks.php'
+local sz='http://kgmeimu.zn27.cn/ks.lua'
 pcall(load(gg.makeRequest(sz).content))
 gg.setVisible(false)
