@@ -1,12 +1,8 @@
-
-
-Sukor=gg.makeRequest("http://xiuran.zn27.cn/脚本/api.php").content --启动次数网址
-
-XR=Sukor:match("全网启动次数\":(.-),\"")  --这个不要改，改了会错误
-
-gg.alert("全网启动次数:"..XR.."次")
-
-
+Sukor=gg.makeRequest("http://xiuran.zn27.cn/脚本/api.php").content
+XR=Sukor:match("全网启动次数\":(.-),\"")
+XR2=Sukor:match("ip\":(.-),\"")
+XR3=Sukor:match("host\":(.-),\"")
+gg.alert("全网启动次数:"..XR.."次\nhost"..XR3.."\nip"..XR2.."")
 
 --function XFYJ(yun)
 ffvpn= "https://vpn.uibe.edu.cn/por/phone_index.csp?rnd=0.23178949332658605#https%3A%2F%2Fvpn.uibe.edu.cn%2F"
