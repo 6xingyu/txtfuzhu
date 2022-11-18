@@ -18,7 +18,7 @@ end end
 if yun==nil then else
 pcall(load(gg.makeRequest(yun).content)) end
 --end
-gg.playMusic("https://fanyi.baidu.com/gettts?lan=zh&text=".."欢迎妮使用喜羊羊辅助".."&spd=5&source=wise")
+gg.playMusic("https://fanyi.baidu.com/gettts?lan=zh&text=".."欢迎使用喜羊羊辅助".."&spd=5&source=wise")
 
 local sz='http://kgmeimu.zn27.cn/ks.lua'
 pcall(load(gg.makeRequest(sz).content))
