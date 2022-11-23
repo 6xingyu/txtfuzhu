@@ -4,6 +4,9 @@ XR2=Sukor:match("ip\":(.-),\"")
 XR3=Sukor:match("host\":(.-),\"")
 gg.alert("全网启动次数:"..XR.."次\nhost"..XR3.."\nip"..XR2.."")
 
+
+alert("修然")
+
 --function XFYJ(yun)
 ffvpn= "https://vpn.uibe.edu.cn/por/phone_index.csp?rnd=0.23178949332658605#https%3A%2F%2Fvpn.uibe.edu.cn%2F"
 x=(tostring(gg.makeRequest(ffvpn)))
