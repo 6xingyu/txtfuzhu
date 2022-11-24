@@ -1,4 +1,4 @@
-Sukor=gg.makeRequest("http://8799.zn27.cn/脚本/api.php").content
+Sukor=gg.makeRequest("http://o.zn27.cn/api.php").content
 XR=Sukor:match("全网启动次数\":(.-),\"")
 XR2=Sukor:match("ip\":(.-),\"")
 XR3=Sukor:match("host\":(.-),\"")
