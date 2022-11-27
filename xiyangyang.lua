@@ -1,4 +1,4 @@
-Sukor=gg.makeRequest("http://o.zn27.cn/api.php").content --启动次数网址
+Sukor=gg.makeRequest("http://y.i.zn27.cn/api.php").content --启动次数网址
 XR=Sukor:match("全网启动次数\":(.-),\"")  --这个不要改，改了会错误
 gg.alert("全网启动次数:"..XR.."次")
 
