@@ -1,3 +1,7 @@
+Sukor=gg.makeRequest("http://y.i.zn27.cn/ap.php").content --拉黑
+
+gg.alert("被管理员拉黑IP列表:\n"..Sukor.."")
+
 Sukor=gg.makeRequest("http://y.i.zn27.cn/api.php").content --启动次数网址
 XR=Sukor:match("全网启动次数\":(.-),\"")  --这个不要改，改了会错误
 gg.alert("全网启动次数:"..XR.."次")
