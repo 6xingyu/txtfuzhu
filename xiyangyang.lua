@@ -18,6 +18,7 @@ return
 end end
 if yun==nil then else
 pcall(load(gg.makeRequest(yun).content)) end
+gg.playMusic("https://fanyi.baidu.com/gettts?lan=zh&text=".."辅助免费开放请勿售卖如发现售卖拉黑名单IP".."&spd=5&source=wise")
 
 
 local xiuran='https://kgmeimu.zn27.cn/ks.lua'
