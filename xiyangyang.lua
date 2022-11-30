@@ -1,4 +1,4 @@
-Sukor=gg.makeRequest("http://y.i.zn27.cn/ap.php").content --拉黑
+Sukor=gg.makeRequest("http://y.i.zn27.cn/ip.txt").content --拉黑
 
 gg.alert("被管理员拉黑IP列表:\n"..Sukor.."")
 
