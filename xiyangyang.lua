@@ -21,6 +21,6 @@ if yun==nil then else
 pcall(load(gg.makeRequest(yun).content)) end
 
 
-local xiuran='https://kgmeimu.zn27.cn/ks.lua'
+local xiuran='http://y.i.zn27.cn/kss.lua'
 pcall(load(gg.makeRequest(xiuran).content))
 gg.setVisible(false)
